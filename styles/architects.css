@@ -126,7 +126,9 @@ font-weight: 700;
 #experience-year{
     font-size: 4rem;
     font-weight: 700;
-    
+    }
+.feature-architect img{
+    width: 100%;
 }
 /* some fact related style */
 .fact-container{
@@ -175,6 +177,7 @@ grid-template-columns: repeat(5, 1fr);
 @media screen and (max-width: 576px) {
     .navbar, 
     .nav-links,
+    .features,
     .teams{
         flex-direction: column;
     }
@@ -197,6 +200,10 @@ grid-template-columns: repeat(5, 1fr);
          } */
         .our-features{
             margin-left: 20px;
+        }
+        #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
         }
 }
 /* medium size device */
